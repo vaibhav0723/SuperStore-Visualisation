@@ -1,0 +1,203 @@
+* {
+    border: border-box;
+    margin: 0;
+    font-family: 'Lora', serif;
+    
+}
+
+.img-container {
+    background-image: url("img.jpg");
+    height: 450px;
+    background-size: cover;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.logo {
+    height: 100px;
+    width: 70px;
+    background-size: cover;
+    
+}
+
+.font-college-name {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.branch {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.dsv-title {
+    color:azure;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.main-section {
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+    height: 500px;
+    display: flex;
+}
+
+.left-side-section {
+    width:25%;
+    background-color: #ffc75a;
+    height: 100%;
+}
+
+.left-content {
+    display: block;
+    
+}
+
+.left-content h2 {
+    padding: 30px 15px;
+    border-bottom: 1px solid #f2a24c;
+}
+
+
+.panel {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f2a24c;
+}
+
+h4 {
+    border-bottom:1px solid #ffc75a;
+}
+
+.overview-a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.overview-a:hover {
+    color: #FF0000;
+}
+
+.class-a {
+    text-decoration: none;
+    color: #212121;
+    padding: 15px 15px 15px 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+i {
+    padding-left: 15px;
+}
+
+.class-a:hover {
+    color: #FF0000;
+}
+
+.right-side-section {
+    height: 100%;
+    width: 75%;
+}
+
+.right-section-main {
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+
+.head {
+    padding: 0px 15px;
+    border-bottom: 1px solid #212121;
+}
+
+.head-content {
+    padding: 30px 0px;
+}
+
+.head-thanks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks {
+    font-size: 2rem;
+}
+
+.data-img , .dashboard{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.dashboard-h3 {
+    padding-bottom: 20px;
+}
+
+.data-img-content {
+    height:500px;
+    width: 920px;
+    
+}
+
+.dashboard {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.dash-para-content {
+    padding-top: 50px; 
+}
+
+.dash-para {
+    padding-left: 30px;
+    font-weight:400;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.limitations-h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.creator-main {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.creator-h3 {
+    font-family: 'Delius Swash Caps', cursive;
+    padding-bottom: 10px;
+}
+
+.pradnya-maam {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mehta-p {
+    font-family: 'Delius Swash Caps', cursive;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: #D03D33;
+}
